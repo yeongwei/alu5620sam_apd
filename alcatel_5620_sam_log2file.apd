@@ -1,0 +1,387 @@
+Pack: ReportTree~AP Alcatel-Lucent 5620 SAM
+Plus: FormulaTree~AP~Specific~Alcatel~5620 SAM
+
+
+# You need to explicitly include the generics or their collect groups (or both) because they don't
+# get picked up from the reports, and the requests therefore do not get included.
+
+#Plus: FormulaTree~AP~Generic~Latency
+Plus: FormulaTree~AP~Generic~Latency~One Way~Inbound (ms) (min)
+Plus: FormulaTree~AP~Generic~Latency~One Way~Inbound (ms) (max)
+Plus: FormulaTree~AP~Generic~Latency~One Way~Inbound (ms) (avg)
+Plus: FormulaTree~AP~Generic~Latency~One Way~Outbound (ms) (avg)
+Plus: FormulaTree~AP~Generic~Latency~Round Trip~RTT (ms) (min)
+Plus: FormulaTree~AP~Generic~Latency~Round Trip~RTT (ms) (max)
+Plus: FormulaTree~AP~Generic~Latency~Round Trip~RTT (ms) (avg)
+Plus: FormulaTree~AP~Generic~Latency~Jitter~Inbound Jitter (ms) (avg)
+Plus: FormulaTree~AP~Generic~Latency~Jitter~Outbound Jitter (ms) (avg)
+Plus: FormulaTree~AP~Generic~Latency~Jitter~Jitter (ms) (avg)
+Plus: FormulaTree~AP~Generic~Latency~Round Trip~Probes Lost (percent)
+
+#Plus: FormulaTree~AP~Generic~Universal~Availability~Availability (percent)
+#Plus: FormulaTree~AP~Generic~Universal~Availability~Unknown Availability (percent)
+#Plus: FormulaTree~AP~Generic~Universal~Availability~Unavailable (percent)
+#Plus: FormulaTree~AP~Generic~Universal~Other~State Transitions
+Plus: FormulaTree~AP~Generic~Universal~Availability
+Plus: FormulaTree~AP~Generic~Universal~Other
+
+Plus: SubElementTree~Sub-Element Collect~Alcatel-Lucent 5620 SAM~Router~OAM Tests~One Way
+Plus: SubElementTree~Sub-Element Collect~Alcatel-Lucent 5620 SAM~Services~ServiceAccessInterface
+
+#Plus: SubElementTree~Sub-Element Collect~Alcatel-Lucent 5620 SAM
+
+
+
+
+Plus: ReportTree~AP Styles~AP TS Chart Style - Distribution Bar (Green/Red)
+Plus: ReportTree~AP Styles~AP TS Chart Style - Distribution Bar (Red/Yellow/Green)
+Plus: SubElementTree~Sub-Element Collect~Alcatel-Lucent 5620 SAM~Router~OAM Tests
+Plus: ReportTree~AP Styles~AP TS Chart Style - Distribution Bar (Green/Yellow/Red)
+Plus: ReportTree~AP Styles~AP TS Chart Style - Bar - White - sum - horizontal
+Plus: ReportTree~AP Styles~AP TS Chart Style - Bar - White - sum - horizontal (Blue/Yellow/etc.)
+Plus: ReportTree~AP Styles~AP TS Chart Style - Area - White - sum - no legends
+Plus: ReportTree~AP Styles~AP TS Chart Style - Stack Area - White - sum (Green/Yellow/Red/Pink)
+Plus: ReportTree~AP Styles~AP TS Chart Style - Stack Area - White - sum (Blue/Yellow/Orange/etc.)
+Plus: ReportTree~AP Styles~AP Distrib Chart Style - Stack Bar Horiz - white - 7 colors
+
+
+
+
+Plus: PropertyPile~samPortChannelType
+Plus: PropertyPile~samSpecificType
+Plus: PropertyPile~nmVendor
+Plus: PropertyPile~samTrafficTypes
+Plus: PropertyPile~samAccountingOn
+Plus: PropertyPile~samAccountingPolicyId
+Plus: PropertyPile~samAccountingPolicyName
+Plus: PropertyPile~samAdministrativeState
+Plus: PropertyPile~samCardSlotId
+Plus: PropertyPile~samCollectStats
+Plus: PropertyPile~samCtpPointer
+Plus: PropertyPile~samDaughterCardSlotId
+Plus: PropertyPile~samDescription
+Plus: PropertyPile~samDestinationInterfaceId
+Plus: PropertyPile~samDestinationInterfaceName
+Plus: PropertyPile~samDestinationIpAddress
+Plus: PropertyPile~samDestinationNodeId
+Plus: PropertyPile~samDestinationNodeMisconfigured
+Plus: PropertyPile~samDeviceState
+Plus: PropertyPile~samDisplayedName
+Plus: PropertyPile~samEncapType
+Plus: PropertyPile~samEgressFilterName
+Plus: PropertyPile~samEgressInterfaceId
+Plus: PropertyPile~samEgressInterfaceName
+Plus: PropertyPile~samEgressInterfacePointer
+Plus: PropertyPile~samEgressPolicyName
+Plus: PropertyPile~samEgressLabel
+Plus: PropertyPile~samEgressSchedulerName
+Plus: PropertyPile~samEquipmentState
+Plus: PropertyPile~samFastRerouteEnabled
+Plus: PropertyPile~samForwardingClasses
+Plus: PropertyPile~samFromCtp
+Plus: PropertyPile~samFromNodeId
+Plus: PropertyPile~samFromNodeName
+Plus: PropertyPile~samHighestIngressFc
+Plus: PropertyPile~samHwMacAddress
+Plus: PropertyPile~samIngressFilterName
+Plus: PropertyPile~samIngressInterfaceId
+Plus: PropertyPile~samIngressInterfaceName
+Plus: PropertyPile~samIngressInterfacePointer
+Plus: PropertyPile~samIngressLabel
+Plus: PropertyPile~samIngressPolicyName
+Plus: PropertyPile~samIngressSchedulerName
+Plus: PropertyPile~samIngressWeightedBandwidthRequirement
+Plus: PropertyPile~samInterfaceId
+Plus: PropertyPile~samIsConnectionTerminated
+Plus: PropertyPile~samIsDefaultPath
+Plus: PropertyPile~samIsDown
+Plus: PropertyPile~samIsLinkUp
+Plus: PropertyPile~samIsMisconfigured
+Plus: PropertyPile~samIsPrimaryLagMember
+Plus: PropertyPile~samLagId
+Plus: PropertyPile~samLagName
+Plus: PropertyPile~samLagMembershipId
+Plus: PropertyPile~samLoadFactor
+Plus: PropertyPile~samMacAddress
+Plus: PropertyPile~samMaxSpeed
+Plus: PropertyPile~samNegotiatedMtu
+Plus: PropertyPile~samNodeId
+Plus: PropertyPile~samNodeName
+Plus: PropertyPile~samNumberOfCardSlots
+Plus: PropertyPile~samNumberOfPaths
+Plus: PropertyPile~samNumberOfPrimaryPaths
+Plus: PropertyPile~samObjectFullName
+Plus: PropertyPile~samOperationalState
+Plus: PropertyPile~samPathId
+Plus: PropertyPile~samPathMtu
+Plus: PropertyPile~samPhysicalAddress
+Plus: PropertyPile~samPortId
+Plus: PropertyPile~samPortIdentifyingName
+Plus: PropertyPile~samPortName
+Plus: PropertyPile~samPrimaryIpAddress
+Plus: PropertyPile~samPrimaryLagMemberId
+Plus: PropertyPile~samPrimaryLagMemberName
+Plus: PropertyPile~samPrimaryNetMask
+Plus: PropertyPile~samRouterName
+Plus: PropertyPile~samRouterId
+Plus: PropertyPile~samRsvpStyle
+Plus: PropertyPile~samServiceId
+Plus: PropertyPile~samServiceName
+Plus: PropertyPile~samServiceType
+Plus: PropertyPile~samShelfId
+Plus: PropertyPile~samShelfName
+Plus: PropertyPile~samShelfType
+Plus: PropertyPile~samSiteId
+Plus: PropertyPile~samSiteName
+Plus: PropertyPile~samSlotId
+Plus: PropertyPile~samSnmpPortId
+Plus: PropertyPile~samSourceInterfaceName
+Plus: PropertyPile~samSourceIpAddress
+Plus: PropertyPile~samSourceNodeId
+Plus: PropertyPile~samSourceNodeMisconfigured
+Plus: PropertyPile~samSpeed
+Plus: PropertyPile~samState
+Plus: PropertyPile~samSubscriberId
+Plus: PropertyPile~samSubscriberName
+Plus: PropertyPile~samTemperature
+Plus: PropertyPile~samTerminatedObjectName
+Plus: PropertyPile~samTerminatedPortClassName
+Plus: PropertyPile~samToCtp
+Plus: PropertyPile~samToNodeId
+Plus: PropertyPile~samToNodeName
+Plus: PropertyPile~samTunnelDestinationMatching
+Plus: PropertyPile~samType
+Plus: PropertyPile~samVirtualRouterId
+
+Plus: PropertyPile~fc
+Plus: PropertyPile~alt_idmap
+
+Plus: PropertyPile~samAccessInterface
+Plus: PropertyPile~samActualPathMtu
+Plus: PropertyPile~samApplication
+Plus: PropertyPile~samCir
+Plus: PropertyPile~samCirAdaptation
+Plus: PropertyPile~samCirLevel
+Plus: PropertyPile~samCirWeight
+Plus: PropertyPile~samCircuitMtu
+Plus: PropertyPile~samCircuitTransport
+Plus: PropertyPile~samCircuitType
+Plus: PropertyPile~samCommittedBurstSize
+Plus: PropertyPile~samConnectionId
+Plus: PropertyPile~samContainingPolicyDisplayedName
+Plus: PropertyPile~samContainingPolicyId
+Plus: PropertyPile~samDeploymentState
+Plus: PropertyPile~samDomain
+Plus: PropertyPile~samEgressFilterId
+Plus: PropertyPile~samEgressFilterPointer
+Plus: PropertyPile~samEgressFilterType
+Plus: PropertyPile~samEgressIpFilterId
+Plus: PropertyPile~samEgressMacFilterId
+Plus: PropertyPile~samEncapsulationType
+Plus: PropertyPile~samExpedite
+Plus: PropertyPile~samForwardingClass
+Plus: PropertyPile~samGlobalPolicy
+Plus: PropertyPile~samHighPriorityReserved
+Plus: PropertyPile~samId
+Plus: PropertyPile~samIngressFilterId
+Plus: PropertyPile~samIngressFilterPointer
+Plus: PropertyPile~samIngressFilterType
+Plus: PropertyPile~samIngressIpFilterId
+Plus: PropertyPile~samIngressMacFilterId
+Plus: PropertyPile~samInterfaceName
+Plus: PropertyPile~samInterfacePointer
+Plus: PropertyPile~samIsLocal
+Plus: PropertyPile~samLabelMismatch
+Plus: PropertyPile~samLevel
+Plus: PropertyPile~samLightweightSdp
+Plus: PropertyPile~samMacPinning
+Plus: PropertyPile~samMaximumBurstSize
+Plus: PropertyPile~samMode
+Plus: PropertyPile~samMtuMismatch
+Plus: PropertyPile~samMulticast
+Plus: PropertyPile~samMultipoint
+Plus: PropertyPile~samName
+Plus: PropertyPile~samOamEnabled
+Plus: PropertyPile~samOperationalEgressLabel
+Plus: PropertyPile~samOperationalFlags
+Plus: PropertyPile~samOperationalIngressLabel
+Plus: PropertyPile~samPathName
+Plus: PropertyPile~samPathPointer
+Plus: PropertyPile~samPir
+Plus: PropertyPile~samPirAdaptation
+Plus: PropertyPile~samPoliced
+Plus: PropertyPile~samPolicyType
+Plus: PropertyPile~samRedundantServiceId
+Plus: PropertyPile~samReturnCircuitPointer
+Plus: PropertyPile~samReturnPathId
+Plus: PropertyPile~samReturnPathName
+Plus: PropertyPile~samReturnPathPointer
+Plus: PropertyPile~samScheduler
+Plus: PropertyPile~samSelfAlarmed
+Plus: PropertyPile~samShgName
+Plus: PropertyPile~samShgSitePointer
+Plus: PropertyPile~samSignallingType
+Plus: PropertyPile~samSpokeConnectorPointer
+Plus: PropertyPile~samSvcComponentId
+Plus: PropertyPile~samTotalBandwidthFactor
+Plus: PropertyPile~samTunnelAutoselectionReturnSpokeCircuitTunnelId
+Plus: PropertyPile~samTunnelAutoselectionReturnTunnelTransportPreference
+Plus: PropertyPile~samTunnelAutoselectionTunnelTransportPreference
+Plus: PropertyPile~samTunnelSelectionTerminationSiteId
+Plus: PropertyPile~samUseDefaultVcTag
+Plus: PropertyPile~samVcId
+Plus: PropertyPile~samVcIdMismatch
+Plus: PropertyPile~samVcType
+Plus: PropertyPile~samVlanVcTag
+Plus: PropertyPile~samWeight
+
+
+Plus: PropertyPile~samTemperatureThresholdInFahrenheit
+Plus: PropertyPile~samTemperatureThreshold
+
+Plus: PropertyPile~OAMTestType
+Plus: PropertyPile~samAdministrativeState
+Plus: PropertyPile~samDeploymentState
+Plus: PropertyPile~samDescription
+Plus: PropertyPile~samDisplayedName
+Plus: PropertyPile~samEgressIfIndex
+Plus: PropertyPile~samFromNodeId
+Plus: PropertyPile~samGlobalId
+Plus: PropertyPile~samId
+Plus: PropertyPile~samLsp
+Plus: PropertyPile~samLspPath
+Plus: PropertyPile~samMplsSite
+Plus: PropertyPile~samName
+Plus: PropertyPile~samNeDeployedTest
+Plus: PropertyPile~samObjectFullName
+Plus: PropertyPile~samOriginatingNode
+Plus: PropertyPile~samSourceIpAddress
+Plus: PropertyPile~samSourceIpAddressType
+Plus: PropertyPile~samTargetIpAddress
+Plus: PropertyPile~samTargetIpAddressType
+Plus: PropertyPile~samTestSuiteId
+Plus: PropertyPile~samTestTargetType
+Plus: PropertyPile~samTestType
+Plus: PropertyPile~samTestedObject
+Plus: PropertyPile~samTimeToLive
+Plus: PropertyPile~samRestartCount
+Plus: PropertyPile~samControlProtocolType
+Plus: PropertyPile~samLastClearedTime
+Plus: PropertyPile~samDeploymentState
+Plus: PropertyPile~samLsp
+Plus: PropertyPile~samLspPath
+Plus: PropertyPile~samPseudowireId
+Plus: PropertyPile~samOamTestDestination
+Plus: PropertyPile~samOriginatingTunnel
+
+# For Alcatel-Lucent 5620 SAM 2.11.0.0 1.3E
+Plus: PropertyPile~samFamilyName
+
+# For COX IFix
+Plus: PropertyPile~samFromEncapValue
+Plus: PropertyPile~samToEncapValue
+Plus: PropertyPile~samFromPortName
+Plus: PropertyPile~samToPortName
+
+# For VM IFix
+Plus: PropertyPile~samOriginatingMep
+Plus: PropertyPile~samMepId
+Plus: PropertyPile~samMaintenanceAssociationId
+Plus: PropertyPile~samMaintenanceDomainId
+Plus: PropertyPile~CFMTestType
+#Other Properties already exist above
+
+# For Alcatel-Lucent 5620 SAM 2.10.0.0 1.3D
+Plus: PropertyPile~samEquipmentId
+Plus: PropertyPile~samScope
+Plus: PropertyPile~samMSSCompleteServiceMapId
+Plus: PropertyPile~samEquipmentDisplayedName
+Plus: PropertyPile~samPN
+Plus: PropertyPile~samPIN
+
+# For Alcatel-Lucent 5620 SAM 2.13.0.0 1.3K
+Plus: PropertyPile~samImaLinkAdminStatus
+Plus: PropertyPile~samImaLinkGrpName
+Plus: PropertyPile~samImaLinkOperStatus
+Plus: PropertyPile~samParentPortId
+Plus: PropertyPile~samDs1PortType
+Plus: PropertyPile~samDs1PortName
+
+# For Alcatel-Lucent 5620 SAM 2.14.0.0 1.3M
+Plus: PropertyPile~samSysCpuMonSampleTime
+Plus: PropertyPile~samCardSlot
+Plus: PropertyPile~samChassisIndex
+Plus: PropertyPile~samMdaSlot
+Plus: PropertyPile~samGroupNumber
+Plus: PropertyPile~samMemberId
+Plus: PropertyPile~samLocalDhcpServerName
+Plus: PropertyPile~samAddress
+Plus: PropertyPile~samAddressPoolName
+Plus: PropertyPile~samAddressType
+Plus: PropertyPile~samPrefixLength
+Plus: PropertyPile~samSAPBased
+
+# For Alcatel-Lucent 5620 SAM Log2File 2.3.0.0 LTE Support
+Plus: PropertyPile~samEpcId
+Plus: PropertyPile~samPeerIPAddress
+Plus: PropertyPile~samReferencePointSiteId
+
+# For Alcatel-Lucent 5620 SAM Log2File 2.5.0.0
+Plus: PropertyPile~samNatPoolType
+Plus: PropertyPile~samOperationalMode
+Plus: PropertyPile~samPortForwardingDynBlockReservation
+Plus: PropertyPile~samPortFwdRangeEnd
+Plus: PropertyPile~samPortReservationType
+Plus: PropertyPile~samPortReservationValue
+Plus: PropertyPile~samLocalAddress
+Plus: PropertyPile~samLocalAddressType
+Plus: PropertyPile~samLocalName
+Plus: PropertyPile~samCodeType
+Plus: PropertyPile~samAutoNegotiate
+Plus: PropertyPile~samBroadcastFrameRate
+Plus: PropertyPile~samBroadcastLimit
+Plus: PropertyPile~samBroadcastLimitInPkt
+Plus: PropertyPile~samBroadcastLimitType
+Plus: PropertyPile~samSlotName
+Plus: PropertyPile~samCardId
+Plus: PropertyPile~samFlashId
+Plus: PropertyPile~samFlashModelNumber
+Plus: PropertyPile~samFlashSerialNumber
+Plus: PropertyPile~samFlashFirmwareRevision
+
+#Cognos
+Plus: SubElementTree~Cognos Reporting~Alcatel-Lucent 5620 SAM
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_INTERFACE
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_MPLSINTERFACE
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_SHELF
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_LAG
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_SDPBINDING
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_AINGRAENGRQUEUE_INGRESS
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_AINGRAENGRQUEUE_EGRESS
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_HWENVIRONMENT
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_PINGTESTS_ONE-WAY
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_PINGTESTS_ROUND-TRIP
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_NETWORKQUEUES
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_SERVICEACCESSINTERFACE
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_PPP_CHANNEL
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_PPP_INTERFACE
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_PPP_PROTOCOL
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_VIRTUAL_ROUTER
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_CARDSLOT
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_AOSQOS_POLICY
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_CFMDIAGTESTS_ONE-WAY
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_CFMDIAGTESTS_TWO-WAY
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_ETHERNET-TEST
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_MPLS_SITE
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_MULTISERVICESITE
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_SINGLE-ENDED-LOSS
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_IMA_LINK
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_DS1_E1
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_BASECARD
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_DAUGHTERCARD
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_MCMCARD
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_CONTROLPROCESSOR
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_ISA_MDA
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_ISA_MEMBER
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_DHCP6ADDRESS
+Plus: RegDataviewTree~TABLE~PACK~ALU_5620_SAM_SUBNETADDRESS
