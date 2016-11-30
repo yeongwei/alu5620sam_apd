@@ -349,7 +349,7 @@ Plus: PropertyPile~samFlashModelNumber
 Plus: PropertyPile~samFlashSerialNumber
 Plus: PropertyPile~samFlashFirmwareRevision
 
-# For Alcatel-Lucent 5620 SAM Log2File 2.5.0.0
+# RFE 93669
 Plus: PropertyPile~samActualSpeedDisplay
 
 #Cognos
